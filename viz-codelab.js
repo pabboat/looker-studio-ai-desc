@@ -85,7 +85,7 @@ function drawViz(data) {
     // ai function
 
     
-    getChatGPTResponse("How are you?", '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').then(value => container.textContent = string(value))
+    getChatGPTResponse("How are you?", '').then(value => container.textContent = string(value))
     container.textContent += ' Hi'
     // // Create the table.
     // const table = document.createElement('table');

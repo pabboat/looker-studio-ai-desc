@@ -36,6 +36,18 @@
                     "id": "headerBg",
                     "label": "Header Background Color",
                     "defaultValue": "#e0e0e0"
+                },
+                {
+                  "id": "secretKey",
+                  "label": "ChatGpt 3.5 Secret Key",
+                  "defaultValue": "0.2",
+                  "type": "TEXTINPUT"
+                },
+                {
+                  "id": "textPrompt",
+                  "label": "AI Text Prompt",
+                  "defaultValue": "0.2",
+                  "type": "TEXTINPUT"
                 }
             ]
         }

@@ -1,5 +1,10 @@
 {
+  "name": "test-package",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
   "dependencies": {
-    "@google/dscc": "^0.3.22"
+    "@google/dscc": "^0.3.22",
+    "openai": "^4.20.1"
   }
 }
